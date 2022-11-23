@@ -1,0 +1,12 @@
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\bin\Debug\net6.0\PayrollSystemLibrary.deps.json
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\bin\Debug\net6.0\PayrollSystemLibrary.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\bin\Debug\net6.0\PayrollSystemLibrary.pdb
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.csproj.AssemblyReference.cache
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.AssemblyInfoInputs.cache
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.AssemblyInfo.cs
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\refint\PayrollSystemLibrary.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\PayrollSystemLibrary.pdb
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemLibrary\obj\Debug\net6.0\ref\PayrollSystemLibrary.dll

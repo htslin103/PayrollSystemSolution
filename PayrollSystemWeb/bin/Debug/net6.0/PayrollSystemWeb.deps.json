@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PayrollSystemWeb/1.0.0": {
+        "dependencies": {
+          "PayrollSystemLibrary": "1.0.0"
+        },
+        "runtime": {
+          "PayrollSystemWeb.dll": {}
+        }
+      },
+      "PayrollSystemLibrary/1.0.0": {
+        "runtime": {
+          "PayrollSystemLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PayrollSystemWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PayrollSystemLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿@*
+
+*@
+@{
+}
+
+<form action="SaveDetail/@ViewBag.Id" method="post">
+    <label for="id">ID:</label>
+    <input type="text" name="id" class="form-control" value="@ViewBag.TaxId"/>
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" class="form-control" value="@ViewBag.Name"/>
+
+    <label for="address">Street Address:</label>
+    <input type="text" name="streetAddress" class="form-control" value="@ViewBag.Address"/>
+    <input type ="submit" class="btn btn-primary" />
+</form>
