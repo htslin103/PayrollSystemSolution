@@ -1,7 +1,10 @@
+using PayrollSystem;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IPaySystemService>(s => new PaySystemService());
 
 var app = builder.Build();
 

@@ -6,6 +6,8 @@ C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\b
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemWeb.runtimeconfig.json
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemWeb.dll
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemWeb.pdb
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemLibrary.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemLibrary.pdb
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.csproj.AssemblyReference.cache
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.AssemblyInfoInputs.cache
@@ -24,11 +26,9 @@ C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\o
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\scopedcss\bundle\PayrollSystemWeb.styles.css
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\scopedcss\projectbundle\PayrollSystemWeb.bundle.scp.css
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.csproj.CopyComplete
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.dll
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\refint\PayrollSystemWeb.dll
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.pdb
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.genruntimeconfig.cache
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\ref\PayrollSystemWeb.dll
-C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemLibrary.dll
-C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\PayrollSystemLibrary.pdb
-C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.csproj.CopyComplete

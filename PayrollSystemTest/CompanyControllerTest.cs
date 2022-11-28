@@ -30,8 +30,9 @@ namespace PayrollWeb.Controllers
         [TestMethod]
         public void TestCompanyControllerGetDetail()
         {  
-            var result = controller.Detail(1); //1 is the primary key of company we want to retrieve 
-            Mock.Get(svc).Verify(s => s.GetCompanyDetail(1));          
+            //1 is the primary key of company we want to retrieve     
+            var result = controller.Detail(1);
+            Mock.Get(svc).Verify(s => s.GetCompanyDetail(1));
         }
 
         [TestMethod]

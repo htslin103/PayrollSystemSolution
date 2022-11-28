@@ -1,17 +1,27 @@
-﻿@*
-
-*@
+﻿@model PayrollWeb.Models.CompanyDetailViewModel
 @{
+    ViewData["Title"] = "Company Details";
 }
+<hr/>
+<form asp-controller="Company" asp-action="Save Detail" asp-route-id = "@ViewBag.Id">
+    
+    <div class="form-group">
+        <label asp-for="TaxId"/>
+        <input asp-for="TaxId" class="form-control"/>
+        <span asp-validation-for="TaxId"></span>
+    </div>
 
-<form action="SaveDetail/@ViewBag.Id" method="post">
-    <label for="id">ID:</label>
-    <input type="text" name="id" class="form-control" value="@ViewBag.TaxId"/>
+    <div class="form-group">
+        <label asp-for="Name"/>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
 
-    <label for="name">Name:</label>
-    <input type="text" name="name" class="form-control" value="@ViewBag.Name"/>
-
-    <label for="address">Street Address:</label>
-    <input type="text" name="streetAddress" class="form-control" value="@ViewBag.Address"/>
+    <div class="form-group">
+        <label asp-for="StreetAddress"/>
+        <input asp-for="StreetAddress" class="form-control"/>
+        <span asp-validation-for="StreetAddress"></span>
+    </div>
+    
     <input type ="submit" class="btn btn-primary" />
 </form>
