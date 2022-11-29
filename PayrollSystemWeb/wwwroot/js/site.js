@@ -2,3 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function compchange(e) {
+    $("#cdp").load("/Company/_cdetailpartial/" + e.value);
+}
