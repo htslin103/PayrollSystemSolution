@@ -224,3 +224,13 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+.vs/PayrollSystemSolution/DesignTimeBuild/.dtbcache.v2
+.vs/PayrollSystemSolution/FileContentIndex/0fc6ed21-e7f7-4500-9679-774756a943c6.vsidx
+.vs/PayrollSystemSolution/FileContentIndex/3d679f5e-8369-4377-943c-8c001319528a.vsidx
+.vs/PayrollSystemSolution/FileContentIndex/4b18b52b-a5f1-4837-bc27-da9da50637fa.vsidx
+.vs/PayrollSystemSolution/FileContentIndex/7ece29e7-5274-4081-8eae-a9909c611125.vsidx
+.vs/PayrollSystemSolution/v17/.futdcache.v2
+.vs/PayrollSystemSolution/v17/.suo
+.vs/PayrollSystemSolution/v17/TestStore/1/001.testlog
+.vs/ProjectEvaluation/payrollsystemsolution.metadata.v5.2
+.vs/ProjectEvaluation/payrollsystemsolution.projects.v5.2

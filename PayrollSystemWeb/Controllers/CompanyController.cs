@@ -55,6 +55,25 @@ namespace PayrollWeb.Controllers
             return View();
         }
 
+        public IActionResult SaveEmployeeDetails()
+        {
+            return RedirectToAction("Employees");
+        }
 
+        public IActionResult ManageResources()
+        {
+            return View();
+        }
+        public IActionResult Hire() {
+            return RedirectToAction("ManageResources");
+        }
+        public IActionResult Terminate() {
+            return RedirectToAction("ManageResources");
+        }
+
+        public IActionResult _EmployeeDetailPartial()
+        {
+            return PartialView();
+        }
     }
 }
