@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Helen/source/repos/VS Projects/PayrollSystemSolution/PayrollSystemWeb/Views/Company/Employees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxFbXBsb3llZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Helen/source/repos/VS Projects/PayrollSystemSolution/PayrollSystemWeb/Views/Company/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Helen/source/repos/VS Projects/PayrollSystemSolution/PayrollSystemWeb/Views/Company/_cdetailpartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfY2RldGFpbHBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Helen/source/repos/VS Projects/PayrollSystemSolution/PayrollSystemWeb/Views/Company/_EmployeeDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxfRW1wbG95ZWVEZXRhaWxQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Helen/source/repos/VS Projects/PayrollSystemSolution/PayrollSystemWeb/Views/Home/Index.cshtml]

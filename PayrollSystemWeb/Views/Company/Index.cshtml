@@ -7,5 +7,11 @@
 
 <h1>Company Administration </h1>
 <hr/>
-
-<a asp-action="Detail" asp-controller="Company"> Edit/Add Companies </a>
+<ul class="nav flex-column">
+    <li class="nav-item">
+        <a asp-action="Detail" asp-controller="Company"> Edit/Add Companies </a>
+    </li>
+    <li class="nav-item">
+        <a asp-action="Employees" asp-controller="Company"> Edit/Add Employees </a>
+    </li>
+</ul>

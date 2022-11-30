@@ -20,14 +20,8 @@ namespace PayrollWeb.Controllers
         public IActionResult Detail(int id)
         {
             //Choose the view
-            var comp = svc.GetCompanyDetail(id); //Id may have negative num if doesn't exist
-            var model = new CompanyDetailViewModel()
-            {
-                Id = id,
-                TaxId = comp.taxid,
-                StreetAddress = comp.address,
-                Name = comp.name
-            };
+            var comp = svc.GetAllCompanies(); //Id may have negative num if doesn't exist
+            CompanyListModel model = new CompanyListModel(comp);
 
             return View(model); 
         }
@@ -48,18 +42,19 @@ namespace PayrollWeb.Controllers
                 return View("Detail", model);
             }
         }
-
         public IActionResult _cdetailpartial(int id)
         {
             var comp = svc.GetCompanyDetail(id);
-            var model = new CompanyDetailViewModel()
-            {
-                Id = id,
-                TaxId = "00-1234567",
-                Name = $"{id} - Acme",
-                StreetAddress = comp.address
-            };
+            var model = new CompanyDetailViewModel(id, comp);
             return PartialView(model);
         }
+        /* This section has to do with the Employees */
+
+        public IActionResult Employees()
+        {
+            return View();
+        }
+
+
     }
 }

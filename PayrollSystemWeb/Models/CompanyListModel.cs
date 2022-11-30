@@ -5,7 +5,7 @@ namespace PayrollWeb.Models
     public class CompanyListModel
     {
         public CompanyListModel()
-        {        }
+        { }
 
         public CompanyListModel(IEnumerable<(int id, string name)> comps)
         {

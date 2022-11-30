@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PayrollSystem;
+using PayrollWeb.Models;
 
 namespace PayrollWeb.Controllers
 {
@@ -32,14 +33,15 @@ namespace PayrollWeb.Controllers
         {  
             //1 is the primary key of company we want to retrieve     
             var result = controller.Detail(1);
-            Mock.Get(svc).Verify(s => s.GetCompanyDetail(1));
+            Mock.Get(svc).Verify(s => s.GetAllCompanies());
         }
 
         [TestMethod]
         public void TestCompanyControllerSaveDetail()
         {
-            var result = controller.SaveDetail(1, "123", "Acme", "123 Easy");
-            Mock.Get(svc).Verify(s => s.SaveCompanyDetail(1, "123", "Acme", "123 Easy"));
+            CompanyDetailViewModel model = new(1, ("12-1234567", "Acme", "123 Easy"));
+            var result = controller.SaveDetail(model);
+            Mock.Get(svc).Verify(s => s.SaveCompanyDetail(1, "12-1234567", "Acme", "123 Easy"));
         }
     }
 }

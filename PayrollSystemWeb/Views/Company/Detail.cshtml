@@ -1,4 +1,4 @@
-﻿@model PayrollWeb.Models.CompanyDetailViewModel
+﻿@model PayrollWeb.Models.CompanyListModel
 @{
     ViewData["Title"] = "Company Details";
 }
@@ -6,9 +6,8 @@
 <div class="container">
     <div class="row">
         <div class="col-3">
-            <select class="form-control" id="sel1" onchange="compchange(this)">
+            <select asp-for="SelectedCompanyId" asp-items="@Model.Companies" class="form-control" onchange="compchange(this)">
                 <option value="-1"> Add New Company</option>
-                <option value="2"> Another Company</option>
             </select>
         </div> 
         <div class="col-3"/>
@@ -16,5 +15,5 @@
 </div>
 <hr/>
 <div class="container border" id="cdp">
-    <partial name="_cdetailpartial" model="@Model" />
+    <partial name="_cdetailpartial" model="@new PayrollWeb.Models.CompanyDetailViewModel()" />
 </div>
