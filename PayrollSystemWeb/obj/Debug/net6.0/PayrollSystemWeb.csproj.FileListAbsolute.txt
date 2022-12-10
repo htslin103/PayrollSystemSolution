@@ -32,3 +32,4 @@ C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\o
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.pdb
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\PayrollSystemWeb.genruntimeconfig.cache
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\obj\Debug\net6.0\ref\PayrollSystemWeb.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemWeb\bin\Debug\net6.0\libman.json

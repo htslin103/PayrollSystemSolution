@@ -110,3 +110,4 @@ C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemTest\
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemTest\obj\Debug\net6.0\PayrollSystemTest.pdb
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemTest\obj\Debug\net6.0\PayrollSystemTest.genruntimeconfig.cache
 C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemTest\obj\Debug\net6.0\ref\PayrollSystemTest.dll
+C:\Users\Helen\source\repos\VS Projects\PayrollSystemSolution\PayrollSystemTest\bin\Debug\net6.0\libman.json

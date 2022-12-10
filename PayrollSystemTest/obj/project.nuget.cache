@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w3hPi9L1jKm8aXdbQByvHK1YwdTrtjTgPOx0aLY1XuomRCyjJVZVK3gHaGmVPxdMCYTrdKNn5P0n5I0LNg4Bew==",
+  "dgSpecHash": "pfpVnwD8ZF+dPquxllF/t0aw2MS4Wt+TUOe3bncypCiFPCF4nxfvK3eq5UZL1h1n9YAjO0qRS3/hFU3qhZeutg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Helen\\source\\repos\\VS Projects\\PayrollSystemSolution\\PayrollSystemTest\\PayrollSystemTest.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Helen\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\Helen\\.nuget\\packages\\microsoft.web.librarymanager.build\\2.1.175\\microsoft.web.librarymanager.build.2.1.175.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\mstest.testadapter\\2.2.10\\mstest.testadapter.2.2.10.nupkg.sha512",
@@ -82,6 +83,7 @@
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
     "C:\\Users\\Helen\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",

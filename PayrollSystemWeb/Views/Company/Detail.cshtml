@@ -1,4 +1,4 @@
-﻿@model PayrollWeb.Models.CompanyListModel
+﻿@model PayrollWeb.Models.GenericListModel
 @{
     ViewData["Title"] = "Company Details";
 }
@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3">
-            <select asp-for="SelectedCompanyId" asp-items="@Model.Companies" class="form-control" onchange="compchange(this)">
+            <select asp-for="SelectedItemId" asp-items="@Model.Items" class="form-control" onchange="compchange(this)">
                 <option value="-1"> Add New Company</option>
             </select>
         </div> 

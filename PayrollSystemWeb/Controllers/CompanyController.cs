@@ -21,13 +21,13 @@ namespace PayrollWeb.Controllers
         {
             //Choose the view
             var comp = svc.GetAllCompanies(); //Id may have negative num if doesn't exist
-            CompanyListModel model = new CompanyListModel(comp);
+            GenericListModel model = new GenericListModel(comp);
 
-            return View(model); 
+            return View(model);
         }
 
         public IActionResult SaveDetail(CompanyDetailViewModel model)
-        {   
+        {
             //only need to specify name of View if in same folder
             if (ModelState.IsValid)
             {
@@ -52,28 +52,35 @@ namespace PayrollWeb.Controllers
 
         public IActionResult Employees()
         {
-            return View();
+            var model = new EmployeeDetailModel();
+            return View(model);
         }
 
-        public IActionResult SaveEmployeeDetails()
+        public IActionResult SaveEmployeeDetails(EmployeeDetailModel model)
         {
             return RedirectToAction("Employees");
         }
 
         public IActionResult ManageResources()
         {
-            return View();
+            var model = new ManageResourceModel();
+            return View(model);
         }
-        public IActionResult Hire() {
-            return RedirectToAction("ManageResources");
-        }
-        public IActionResult Terminate() {
+
+        public IActionResult Hire(ManageResourceModel model)
+        {
             return RedirectToAction("ManageResources");
         }
 
-        public IActionResult _EmployeeDetailPartial()
+        public IActionResult Terminate(ManageResourceModel model)
         {
-            return PartialView();
+            return RedirectToAction("ManageResources");
+        }
+
+        public IActionResult _EmployeeDetailPartial(int id)
+        {
+            var model = new EmployeeDetailModel();
+            return PartialView(model);
         }
     }
 }
